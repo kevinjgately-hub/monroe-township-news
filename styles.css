@@ -385,3 +385,37 @@ footer.sitefoot p { margin: 0 0 10px; }
 @media (max-width: 480px) {
   nav.sitenav { gap: 16px; }
 }
+
+/* ---------- Coverage page ---------- */
+
+.cov-h {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  margin: 28px 0 10px;
+}
+
+.cov-wrap { overflow-x: auto; margin: 0 0 8px; }
+
+table.cov {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+}
+
+table.cov th, table.cov td {
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--rule);
+}
+
+table.cov thead th {
+  background: var(--tag-bg);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+table.cov tbody th { font-weight: 700; min-width: 8rem; }
