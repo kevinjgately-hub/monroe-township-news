@@ -47,7 +47,9 @@ Create a new subfolder (for example `/<town>-<state>/`) by copying the Monroe fo
 
 ## Privacy
 
-The site uses no cookies and does not track individual readers. It uses Cloudflare Web Analytics (a small beacon script at the bottom of each page) to count page views in aggregate.
+Reading the site sets no cookies and does not track individual readers. It uses Cloudflare Web Analytics (a small beacon script at the bottom of each page) to count page views in aggregate.
+
+The email signup page (`monroe-nj/subscribe.html`) is the one exception: it loads a MailerLite form and Google reCAPTCHA, which may set cookies on that page only. The MailerLite script is loaded only on that page. For a new town, create a new MailerLite group and form and embed it on that town's own subscribe page.
 
 ## Corrections
 
