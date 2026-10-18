@@ -51,6 +51,10 @@ Reading the site sets no cookies and does not track individual readers. It uses 
 
 The email signup page (`monroe-nj/subscribe.html`) is the one exception: it loads a MailerLite form and Google reCAPTCHA, which may set cookies on that page only. The MailerLite script is loaded only on that page. For a new town, create a new MailerLite group and form and embed it on that town's own subscribe page.
 
+## Support link
+
+The Buy Me a Coffee page (https://buymeacoffee.com/townsinfocus) is linked as a plain link from the Monroe home sidebar, About page and footer. No Buy Me a Coffee script or widget is loaded, so the site sets no cookies for it.
+
 ## Corrections
 
 Open an issue on this repository if something is wrong or misleading.
