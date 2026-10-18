@@ -1,7 +1,7 @@
 /* Towns in Focus / Monroe in Focus — shared stylesheet (v2, modern newsroom) */
 
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 
   --bg: #f6f4ef;
   --surface: #ffffff;
@@ -24,39 +24,12 @@
   --b: var(--brand); /* per-body accent, overridden below */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0f1218;
-    --surface: #171b23;
-    --surface-2: #1e232d;
-    --ink: #eceae4;
-    --ink-soft: #c3c6cd;
-    --ink-faint: #9096a1;
-    --rule: #2b313c;
-    --brand: #e0707f;
-    --brand-dark: #f0a0aa;
-    --navy: #0a0e16;
-    --link: #f0a0aa;
-    --chip: #232936;
-    --shadow: 0 1px 2px rgba(0, 0, 0, .35), 0 4px 14px rgba(0, 0, 0, .25);
-    --shadow-lift: 0 2px 4px rgba(0, 0, 0, .4), 0 10px 26px rgba(0, 0, 0, .35);
-  }
-}
-
 /* Per-body accent colors (light / dark) */
 .b-council  { --b: #8b1e2f; }
 .b-schools  { --b: #1f5fa8; }
 .b-planning { --b: #23744a; }
 .b-zoning   { --b: #a95f00; }
 .b-boards   { --b: #6a47a0; }
-@media (prefers-color-scheme: dark) {
-  .b-council  { --b: #e0707f; }
-  .b-schools  { --b: #6fa8ee; }
-  .b-planning { --b: #5cc690; }
-  .b-zoning   { --b: #f0a640; }
-  .b-boards   { --b: #b29ae0; }
-}
-
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 
@@ -245,7 +218,6 @@ article.full .section-label::after { display: none; }
   border: 0;
 }
 .btn:hover { background: var(--brand-dark); color: #fff; }
-@media (prefers-color-scheme: dark) { .btn { color: #1a0d10; } .btn:hover { color: #1a0d10; } }
 .btn.ghost { background: transparent; color: var(--brand); border: 1.5px solid var(--brand); }
 .btn.ghost:hover { background: var(--brand); color: #fff; }
 
@@ -360,7 +332,6 @@ article.full li { font-family: var(--serif); font-size: 1.08rem; line-height: 1.
   margin: 0;
   box-shadow: var(--shadow);
 }
-@media (prefers-color-scheme: dark) { .next-meeting { border-top-color: #6fa8ee; } }
 .next-meeting h2 { font-family: var(--serif); font-size: 1.2rem; margin: 0 0 6px; }
 .next-meeting .when { font-size: 1rem; font-weight: 700; margin: 0 0 2px; }
 .next-meeting .where { font-size: .9rem; color: var(--ink-soft); margin: 0 0 12px; }
@@ -448,7 +419,6 @@ table.cov tbody tr:hover td, table.cov tbody tr:hover th { background: var(--sur
 .pillars { max-width: 1120px; margin: 0 auto; padding: 44px 20px 8px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .pillar { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 22px; box-shadow: var(--shadow); }
 .pillar .num { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--brand); color: #fff; font-weight: 800; font-size: .85rem; margin-bottom: 10px; }
-@media (prefers-color-scheme: dark) { .pillar .num { color: #1a0d10; } }
 .pillar h3 { font-family: var(--serif); font-size: 1.15rem; margin: 0 0 6px; }
 .pillar p { font-size: .94rem; color: var(--ink-soft); margin: 0; line-height: 1.6; }
 
