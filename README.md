@@ -11,6 +11,7 @@ Live at **https://townsinfocus.com/**
 | Town | Site | Folder |
 |---|---|---|
 | Monroe Township, Middlesex County, NJ | [Monroe in Focus](https://townsinfocus.com/monroe-nj/) | `monroe-nj/` |
+| Town of Putnam Valley, Putnam County, NY | [Putnam Valley in Focus](https://townsinfocus.com/putnam-valley-ny/) | `putnam-valley-ny/` |
 
 Each town lives in its own subfolder (`/<town>-<state>/`) with its own home page, archive, coverage page, about page, stylesheet and `news/` folder.
 
